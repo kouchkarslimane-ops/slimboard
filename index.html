@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SlimBoard · Tableau tactique de water-polo</title>
+<meta name="description" content="SlimBoard, le tableau tactique et l'outil de club des entraîneurs de water-polo.">
+<link rel="icon" href="icone.png">
+<style>
+  :root { --ink:#0B1D33; --water:#0B7FA8; --buoy:#FFD21F; --bg:#f3f5f1; --line:#dfe6ee; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.6 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width:860px; margin:0 auto; padding:24px 16px 48px; text-align:center; }
+  .logo { width:100%; max-width:640px; }
+  h1 { font-size:28px; margin:8px 0 4px; }
+  .sub { color:var(--water); font-weight:600; margin:0 0 24px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px; text-align:left; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:14px; padding:16px 18px; }
+  .card h2 { font-size:18px; margin:0 0 6px; }
+  .card p { margin:0; font-size:15px; color:#3c4b5c; }
+  .gift { display:inline-block; margin:24px 0 8px; background:var(--buoy); border-radius:999px; padding:8px 18px; font-weight:700; }
+  footer { margin-top:32px; font-size:14px; color:#5b6b7c; }
+  a { color:var(--water); }
+</style>
+</head>
+<body>
+<main>
+  <img class="logo" src="logo.png" alt="SlimBoard">
+  <h1>Le tableau tactique du water-polo</h1>
+  <p class="sub">Pensé par un entraîneur, pour les entraîneurs, les joueurs et les parents.</p>
+  <div class="grid">
+    <div class="card"><h2>🤽 Le bassin</h2><p>Systèmes en plusieurs étapes, animés, en attaque comme en défense. Playbook, formations, vidéo commentée.</p></div>
+    <div class="card"><h2>📅 Le club</h2><p>Agenda, appel et présences, compos, feuilles de match en PDF, tests physiques et profils des joueurs.</p></div>
+    <div class="card"><h2>👥 Toute l'équipe</h2><p>Plusieurs entraîneurs, joueurs et parents invités par code : chacun voit son planning et répond présent ou absent.</p></div>
+  </div>
+  <div class="gift">🎁 Toutes les fonctions Pro offertes pendant le lancement</div>
+  <footer>
+    <p><a href="confidentialite.html">Politique de confidentialité</a> · <a href="confidentialite.html#suppression">Supprimer mon compte</a></p>
+    <p>SlimBoard · Slimane KOUCHKAR, entrepreneur individuel · France</p>
+  </footer>
+</main>
+</body>
+</html>
